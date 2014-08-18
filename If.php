@@ -14,7 +14,10 @@ if ($b > $a) {
 
 // Shorten the next 2 statements into an if/else
 if ($b >= $c) {
-     elseif ($b <= $c)  echo "$b is greater than $c\n";
+     elseif ($b <= $c) 
+
+      echo "$b is greater than $c\n";
+  \
     // output the appropriate result
     echo "$b is greater than or equal to $c\n";
 }
