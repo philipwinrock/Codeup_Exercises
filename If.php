@@ -14,13 +14,15 @@ if ($b > $a) {
 
 // Shorten the next 2 statements into an if/else
 if ($b >= $c) {
-     elseif ($b <= $c) 
-
+     elseif ($b <= $c){ 
       echo "$b is greater than $c\n";
+}
+
+}
   \
     // output the appropriate result
     echo "$b is greater than or equal to $c\n";
-}
+
 
 if ($b <= $c) {
     // output the appropriate result
@@ -63,7 +65,9 @@ $a =5;
 $b =10;
 $c ='10';
 
-if($a > $b) { echo "what the hell";}
+if($a > $b) {
+ echo "what the hell";
+}
 php.
 
 ?>

@@ -1,36 +1,35 @@
 <?php
 
 
+	
+//$array = array('1955 Chevy' , 'Yellow Submarine' , 'Old Man');
+//$array2 = ['1955 Chevy' , 'Yellow Submarine' , 'Old Man'];
 
 
-
-$students = array(
-    array('name' => 'Virginia Potts age is 29'),
-    array('name' => 'Elon Musk his age is 42'),
-    array('name' => 'Rasmus Lerdorf his age is 45'),
-    array('name' => 'Marissa Mayer her age is 38') 
-);
-
-	foreach ($students as $student) {
-
-    foreach ($student as $key => $value) {
-
-        echo "Student's $key is $value\n";
-    }
-
-	}
-
-
-
-    
-
- 
+//var_dump ($array);
+//print_r($array2);
 
 
 
 
+$cars=[
+	'make' => 'value',
+	'location' => 'price',
+	'available'=> 'delivery'
+
+];
+
+// print_r($cars);
 
 
+foreach ($cars as $key => $value) {
+	//echo $key . ' ' . $value . PHP_EOL;
+	// echo "$value" . PHP_EOL;
+	$newString .= $value . PHP_EOL;
+}
+
+
+echo "$newString" . PHP_EOL;
 
 
 

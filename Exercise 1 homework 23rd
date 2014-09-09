@@ -1,0 +1,31 @@
+<?php
+
+
+
+
+
+
+function days_of_month($month); {
+	
+
+
+	return $numDays;
+
+	}
+
+	Echo days_of_month('January');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+?>
