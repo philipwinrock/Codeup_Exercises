@@ -36,12 +36,14 @@
                     );
                         
                         foreach($books as $title => $book) {
+                            // if ($book['published']>=1950) {
+                                # code...
                                 echo ("{$title} \n");
                             foreach($book as $key => $value) {
                                 if(is_array($value)) {
                                     echo "Contributors: " . PHP_EOL;
                                     foreach ($value as $Contributors) {
-                                        echo "\t{$Contributors}" . PHP_EOL;
+                                        echo "\t{$Contributors}"  . PHP_EOL;
                                         # code...
                                     }
                                     echo PHP_EOL;
@@ -51,8 +53,9 @@
                                 echo ("\t{$key} {$value} \n");
                             }
                             }
-                            } 
+                            // } 
                                
+                            }
                            
                 		 // echo "$key as 'published . $title .\n";
                 			# code...
