@@ -1,41 +1,6 @@
 <?php
-// 			//students and their ages//
-// $students = array(
-//     array('name' => 'Virginia Potts', 'age' => 29),
-//     array('name' => 'Elon Musk', 'age' => 12),
-//     array('name' => 'Rasmus Lerdorf', 'age' => 45),
-//     array('name' => 'Marissa Mayer', 'age' => 18)
-// );
-//     //loop through students name and age//
-// foreach ($students as $student) {
-//     echo "{$student['name']} is {$student['age']} years old.\n";
-// }
-
-	
-	// do {
- //    echo "$a\n";
-    
-
-$numbers = array(1, 2, 3, 4, 5);
-foreach ($numbers as $key => $value) {
-    echo ("value has a key of {$key} and a value of {$value}\n");
-}
-
-
-
-
-
-
-
-
-
-
- //    $a++;
-    
-
-	// }while ($a <= 100 / 30);
-
-
+	// 		//FIZZBUZZ
+   
 	//      for($a = 1; $a <= 100 ; $a++) {
 
 	// 	if(($a % 3 == 0) && ($a % 5 == 0)) {
@@ -55,9 +20,7 @@ foreach ($numbers as $key => $value) {
 	
 
 
-
-
-
+  
 
 
 
@@ -103,57 +66,61 @@ foreach ($numbers as $key => $value) {
 					
 					
 
-				 // $a=10; $b='10';
-				                        // Shorten the next 2 statements into an if/else
+				//  $a=10; $b='10';
+				//                         // Shorten the next 2 statements into an if/else
 				// if ($a === $b) {
 				//                              // output the appropriate result
-				// echo "$a is identical to $b" .  PHP_EOL;
+				// 	echo "$a is identical to $b" .  PHP_EOL;
 				// }
-				// else           {
-				// 	echo '$a is not identical to $b'  . PHP_EOL; 
+				// 		else           {
+				// 			echo "$a is not identical to $b"  . PHP_EOL; 
 				// }
 
 
 
-				// if ($b == $a) {
+				// if ($a == $b) {
 				//     // output the appropriate result
-				//     echo "$b is equal to $a" . PHP_EOL;
+				//   			  echo "$b is equal to $a" . PHP_EOL;
 				// }
+				// 		else{
+				// 			echo "$b is not equal to $a" . PHPEOL;
+				// 		}
 
 				// // Shorten the next 2 statements into an if/else
-				// if ($b >= $c) {
+				// if ($a >= $b) {
 				//     // output the appropriate result
-				//     echo "$b is ____ $c\n";
+				//    	 echo "$a is equal $b" . PHP_EOL;
+				// }
+				// 		else{
+				// 			echo "$a is less than $b" . PHP_EOL;
 				// }
 
-				// if ($b <= $c) {
+				// if ($a <= $b) {
 				//     // output the appropriate result
-				//     echo "$b is ____ $c\n";
+				//    		 	echo "$a is greater $b"  .  PHP_EOL;
+
+				//    		else{
+				//    		 			echo "$a is equal to $b"  .  PHP_EOL;   
+				// }
 				// }
 
-				// // combine the next 4 conditionals into 
-				// // one if/else/elseif block that checks in order for:
-				// // identical, equal, not identical, not equal
-				// if ($b == $c) {
+				
+
+				// if ($a === $b) {
 				//     // output the appropriate result
-				//     echo "$b is equal to $c";
+				//     	echo "$a is identicalin type and value to $b";
 				// }
 
-				// if ($b === $c) {
-				//     // output the appropriate result
-				//     echo "$b is identical to $c";
+				// if ($a != $b) {
+	   //  			    // output the appropriate result
+				//     	echo "$a is not equal to $b";
 				// }
 
-				// if ($b != $c) {
+				// if ($a !== $b) {
 				//     // output the appropriate result
-				//     echo "$b is not equal to $c";
+				//     	echo "$a is not identical to $b";
 				// }
-
-				// if ($b !== $c) {
-				//     // output the appropriate result
-				//     echo "$b is not identical to $c";
-				// }
-
+				// 		//end//
 				
 			
 
@@ -178,14 +145,14 @@ foreach ($numbers as $key => $value) {
 
 
 
-                             // $a = 10;
+                            //  $a = 10;
                             // echo ++$a .PHP_EOL;
-                             // echo $a++ . PHP_EOL;
-                             // echo $a . PHP_EOL;
-                             // $b = 20;
-                             //  echo --$b . PHP_EOL;
-                             // echo $b-- . PHP_EOL;
-                             // echo $b;
+                            //  echo $a++ . PHP_EOL;
+                            //  echo $a . PHP_EOL;
+                            //  $b = 20;
+                            //   echo --$b . PHP_EOL;
+                            //  echo $b-- . PHP_EOL;
+                            //  echo $b;
 
 
 
@@ -193,34 +160,19 @@ foreach ($numbers as $key => $value) {
 
 
 
- 
-
-						 // Set the default timezone
-						 // date_default_timezone_set('America/Chicago');
-
-						 // // Get Day of Week as number
-						 // // 1 (for Monday) through 7 (for Sunday)
-						 // $day_of_week = date('N');
-
-						 // switch($day_of_week) {
-						 //     case 1:
-						 //         // Output Monday
-						 //     echo '$value is a day';
-
-						 //     case 2:
-						 //         // Output Tuesday
-						 //     // etc through day 7
-						 // }
+ 					 			//loop1 
+						// //modulus of 2 looking for even numbers
 						// for ($i = 1; $i <= 10; $i++) {
 						//     echo $i . "\n";
 						//     if ($i % 2 !== 0) {
 						//         continue;
 						//     }
+						//     		//show even numbers with ^
 						//     echo "^ that is an EVEN number.\n";
 						// }
 
 						// $numbers = array(1,2,3,4,5);
-						// // Loop 1
+						// // Loop 2 count to 5 then "break" and say done.
 						// foreach ($numbers as $key => $value) {
 						//     echo "{$value}\n";
 						//     // Loop 2
@@ -231,7 +183,7 @@ foreach ($numbers as $key => $value) {
 						//         }
 						//     }
 						// }
-						// echo "done!\n";
+						// echo "done!!\n";
 
 
 
