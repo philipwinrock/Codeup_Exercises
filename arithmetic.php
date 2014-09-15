@@ -45,7 +45,7 @@ function divide($a, $b) {
 }   
 
 }   // Add code here
-        // return $a / $b . PHP_EOL;
+         return $a / $b . PHP_EOL;
 
         else {
         divide_by_zero($a , $b);
@@ -70,12 +70,12 @@ function modulus($a,$b){
         none_integer($a ,$b);
 }
 
-}
-}
+// }
+// }
 
 //Function divide_by_zero($a , $b){
-    // echo '$a is ' . $a . ' and $b is ' . $b ."   ";
-    // echo 'ERROR do not divide by Zero' . PHP_EOL;
+    echo '$a is ' . $a . ' and $b is ' . $b ."   ";
+    echo 'ERROR do not divide by Zero' . PHP_EOL;
 
 
 Function none_integer($a , $b){
